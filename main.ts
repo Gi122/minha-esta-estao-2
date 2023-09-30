@@ -7,9 +7,17 @@ input.onButtonPressed(Button.A, function () {
     dado = [0, 9]
     basic.showNumber(dado)
 })
-let dado: number[] = []
+let dado = 0
 let dado2 = 0
 radio.setGroup(1)
+let lista = []
+radio.setGroup(1)
+for (let index = 0; index < 4; index++) {
+    lista = [[], 9]
+    lista = [0, 1]
+}
+music.ringTone(262)
+let lista_de_texto = ["um", "b", "c"]
 basic.forever(function () {
-	
+    dado = 0
 })
